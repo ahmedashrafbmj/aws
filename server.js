@@ -6,7 +6,7 @@ const path = require('path');
 
 
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 9000
 const app = express()
 const cors = require("cors");
 const bd = require("body-parser");
@@ -19,7 +19,7 @@ dotenv.config({path: './config.env'});
 const db = process.env.DATABASE;
 // console.log(process.env.DATABASE)
 
-mongoose.connect("mongodb+srv://admin:admin@cluster0.kmirv.mongodb.net/?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://terakarachi:terakarachi@cluster0.forbrm0.mongodb.net/",{
     
     // useCreateIndex: true,
     useNewUrlParser: true,

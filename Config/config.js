@@ -1,6 +1,6 @@
 // const mongoose = require('mongoose');
 
-// mongoose.connect("mongodb+srv://admin:admin@cluster0.kmirv.mongodb.net/?retryWrites=true&w=majority",{
+// mongoose.connect("mongodb+srv://terakarachi:terakarachi@cluster0.forbrm0.mongodb.net/",{
     
 //     // useCreateIndex: true,
 //     useNewUrlParser: true,
