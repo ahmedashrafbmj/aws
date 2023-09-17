@@ -19,7 +19,7 @@ dotenv.config({path: './config.env'});
 const db = process.env.DATABASE;
 // console.log(process.env.DATABASE)
 
-mongoose.connect("mongodb+srv://freactapp:fayyaz2019@cluster0.33xgk.mongodb.net/13karachi?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://admin:admin@cluster0.kmirv.mongodb.net/?retryWrites=true&w=majority",{
     
     // useCreateIndex: true,
     useNewUrlParser: true,
