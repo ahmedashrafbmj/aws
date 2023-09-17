@@ -1,0 +1,8 @@
+version: '3'
+services:
+  node-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '9000:9000'  # Map host port 9000 to container port 9000
